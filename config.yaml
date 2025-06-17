@@ -2,3 +2,13 @@ baseURL: "http://hugo-quickstart-template.netlify.com"
 languageCode: "en-us"
 title: "Netlify + Hugo Quickstart"
 theme: "netlify-basic"
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 2
